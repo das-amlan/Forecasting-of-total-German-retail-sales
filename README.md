@@ -16,7 +16,7 @@ This repository contains an R code that performs time-series forecasting of tota
 
 1. Plot the forecasted values along with the original data using `autoplot()`.
 
-1. Evaluate the accuracy of the forecast using the `accuracy()` function and calculate various performance metrics such as Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), and Mean Squared Error (MSE).
+1. Evaluate the accuracy of the forecast by calculating various performance metrics such as **Mean Absolute Error (MAE)**, **Mean Absolute Percentage Error (MAPE)**, and **Mean Squared Error (MSE)**.
 
 1. Plot the residuals of the forecast using `autoplot()` to check for any patterns.
 
