@@ -4,7 +4,7 @@ This repository contains an R code that performs time-series forecasting of tota
 ## Steps
 1. Load the required libraries such as "ggplot2", "forecast", "readxl".
 
-1. Read the data from a `.csv` file using the `read_csv()` function from the `readr` library.
+1. Read the data from a `.csv` file using the `read_excel()` function from the `readxl` library.
 
 1. Convert the date column in the data to a time series format using the `ts()` function.
 
