@@ -2,7 +2,7 @@
 This repository contains an R code that performs time-series forecasting of total German retail sales. The code uses an `ARIMA` model to forecast the sales and evaluate its accuracy.
 
 ## Steps
-1. Load the required libraries such as "ggplot2", "forecast", "readr".
+1. Load the required libraries such as "ggplot2", "forecast", "readxl".
 
 1. Read the data from a `.csv` file using the `read_csv()` function from the `readr` library.
 
@@ -10,7 +10,7 @@ This repository contains an R code that performs time-series forecasting of tota
 
 1. Plot the time series data using `ggplot()` and `geom_line()`.
 
-1. Decompose the time series into its components (trend, seasonality, and residuals) using the `stl()` function.
+1. Decompose the time series into its components (trend, seasonality, and residuals).
 
 1. Fit an ARIMA model to the data using the `auto.arima()` function and then perform forecasting using the `forecast()` function.
 
@@ -28,7 +28,7 @@ This repository contains an R code that performs time-series forecasting of tota
 * Set the working directory to the location of the code file and data file.
 * Run the code line by line or use the source() function to run the entire code.
 ## Data
-The data used in the code is a .csv file containing the total German retail sales from January 2000 to December 2022.
+The data used in the code is a `.csv` file containing the total German retail sales from January 2000 to December 2022.
 
 ## Contributions
 Contributions are welcome! If you want to contribute to this project, please fork the repository and create a pull request with your changes.
