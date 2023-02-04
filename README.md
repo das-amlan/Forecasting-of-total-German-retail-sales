@@ -20,7 +20,6 @@ This repository contains an R code that performs time-series forecasting of tota
 
 1. Plot the residuals of the forecast using `autoplot()` to check for any patterns.
 
-1. Finally, the code saves the forecasted values to a `.csv` file using the `write_csv()` function.
 
 ## How to run the code
 * Clone the repository to your local machine.
